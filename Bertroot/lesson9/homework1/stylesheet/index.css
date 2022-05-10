@@ -1,0 +1,165 @@
+body {
+  width: 1920px;
+  height: 100vh;
+  background-color: #ffffff;
+  /* background-color: aqua; */
+  overflow: scroll;
+  display: flex;
+}
+
+nav {
+  position: absolute;
+  min-width: 1920px;
+  height: 55px;
+  box-sizing: border-box;
+  display: inline-block;
+  padding-left: 40px;
+  position: fixed;
+  background-color: #ffffff;
+  /* background-color: darkgreen; */
+  z-index: 1;
+}
+
+.text-end {
+  position: absolute;
+  width: 41px;
+  height: 23px;
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: 16px;
+}
+
+.title {
+  position: absolute;
+  width: 270px;
+  height: 23px;
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 82.9px;
+  margin-top: 16px;
+}
+
+.logo {
+  position: absolute;
+  width: 243.2px;
+  left: -0.08%;
+  right: 89.6%;
+  top: 3.64%;
+  bottom: 7.27%;
+  margin-left: 1596.7px;
+}
+
+aside {
+  /* background-color: brown; */
+  position: absolute;
+  width: 1920px;
+  height: 478.11px;
+  position: fixed;
+  top: 121px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.ul1 {
+  margin-left: 74.19px;
+}
+
+.aside-1 {
+  position: absolute;
+  /* width: 285px; */
+  height: 49.93px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #000000;
+  box-sizing: border-box;
+}
+.aside-2 {
+  position: absolute;
+  /* width: 375px; */
+  height: 49.93px;
+  top: 142.65px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.aside-3 {
+  position: absolute;
+  /* width: 439px; */
+  height: 49.93px;
+  top: 285.39px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.aside-4 {
+  position: absolute;
+  /* width: 429px; */
+  height: 49.93px;
+  top: 427.93px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+/* 
+html {
+  background-color: blue;
+} */
+
+.div-text {
+  position: absolute;
+  width: 1160px;
+  height: 3843px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  /* or 133% */
+  color: #000000;
+  /* background-color: darkorchid; */
+  top: 121px;
+  left: 720px;
+}
+
+.strong-text {
+  scroll-margin-top: 90px;
+  font-weight: 900;
+}
+
+.background-image {
+  bottom: 0px;
+  right: 0px;
+  width: 650px;
+  height: 675px;
+  position: fixed;
+  z-index: -1;
+  /* background-repeat: no-repeat; */
+}
+
+.fa-microphone {
+  font-size: 20px;
+  color: cadetblue;
+}

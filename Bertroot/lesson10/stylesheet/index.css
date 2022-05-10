@@ -1,0 +1,280 @@
+body {
+  height: 200vh;
+}
+
+@font-face {
+  font-family: gilroy-bold;
+  src: url(../assets/gilroy-bold.ttf);
+}
+
+@font-face {
+  font-family: gilroy-medium;
+  src: url(../assets/gilroy-Medium.ttf);
+  font-size: 18px;
+}
+
+.all-h2 {
+  font-size: 34px;
+}
+
+.all-h3 {
+  font-size: 18px;
+
+}
+
+.size-gilroy-bold {
+  font-family: gilroy-bold;
+}
+
+.size-gilroy-medium {
+  font-family: gilroy-medium;
+}
+
+header {
+  max-width: 950px;
+  height: 85px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  gap: 100px;
+}
+
+.header-link {
+  text-decoration: none;
+  color: #828282;
+  font-size: 18px;
+}
+
+.home {
+  color: #070707;
+}
+
+#RU {
+  color: #828282;
+}
+
+.up-line {
+  max-width: 950px;
+  border: 1px solid #828282;
+  margin: auto;
+}
+
+.main-block-info {
+  max-width: 950px;
+  height: 190px;
+  /* background-color: crimson; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.block-name {
+  font-size: 48px;
+  color: #070707;
+  transform: translateY(-20px);
+}
+
+.block-years {
+  font-size: 18px;
+  /* background-color: darkmagenta; */
+}
+
+.block-lng {
+  display: flex;
+  transform: rotateZ(-90deg) translateY(40px) translateX(15px);
+  height: 50px;
+}
+
+.photo-self {
+  background-image: url(../assets/BSPP2266.jpg);
+  height: 387px;
+  width: 943.61px;
+  margin: auto;
+}
+
+.block-about-me {
+  height: 506px;
+  /* background-color: chocolate; */
+  max-width: 950px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.div-about-me {
+  margin: auto;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+  /* background-color: darkgreen; */
+  position: relative;
+  top: 160px;
+}
+
+.div-skills {
+  height: 610px;
+  max-width: 950px;
+  margin: auto;
+  /* background-color: darksalmon; */
+}
+
+.div-skills-text {
+  text-align: center;
+}
+
+.h2-skills {
+  position: relative;
+  top: 90px;
+}
+
+.skills-text {
+  position: relative;
+  top: 185px;
+}
+
+.div-programs {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 290px;
+}
+
+.image-adobe-photoshop {
+  background-image: url(../assets/adobe-photoshop.svg);
+  height: 90px;
+  width: 90px;
+}
+
+.image-adobe-illustrator {
+  background-image: url(../assets/adobe-illustrator.svg);
+  height: 90px;
+  width: 90px;
+}
+
+.image-adobe-after-effects {
+  background-image: url(../assets/adobe-after-effects.svg);
+  height: 90px;
+  width: 90px;
+}
+
+.image-figma {
+  background-image: url(../assets/figma.svg);
+  height: 90px;
+  width: 60px;
+  background-repeat: no-repeat;
+}
+
+.name-programs {
+  display: flex;
+  justify-content: space-around;
+  transform: translateY(310px);
+  /* background-color: aqua; */
+}
+
+.i {
+  text-align: center;
+  /* background-color: crimson; */
+  width: 90px;
+}
+
+.j {
+  width: 60px;
+}
+
+.div-image-star {
+  display: flex;
+  justify-content: space-around;
+  transform: translateY(350px);
+  /* background-color: aqua; */
+}
+
+.img-Photoshop {
+  background-image: url(../assets/for-star.png);
+  width: 166px;
+  height: 26px;
+}
+
+.img-Illustrator {
+  background-image: url(../assets/three-star.png);
+  width: 166px;
+  height: 26px;
+}
+
+.img-After-Effects {
+  background-image: url(../assets/for-star.png);
+  width: 166px;
+  height: 26px;
+}
+
+.img-Figma {
+  background-image: url(../assets/for-star.png);
+  width: 166px;
+  height: 26px;
+}
+
+/* .a {
+  
+  background-color: darkgreen;
+} */
+
+.image-translate2 {
+  transform: translateX(12px);
+}
+
+.image-translate3 {
+  transform: translateX(19px);
+
+}
+
+.image-translate4 {
+  transform: translateX(11px);
+}
+
+.more-image {
+  max-width: 950px;
+  height: 2253px;
+  margin: 0 auto;
+  /* background-color: greenyellow; */
+}
+
+.more-text-portfolio {
+  text-align: center;
+  position: relative;
+  top: 110px;
+}
+
+.image-portfolio {
+  width: 936.24px;
+  height: 510px;
+  background-image: url(../assets/portfolio.png);
+  margin: 0 auto;
+  position: relative;
+  top: 154px;
+}
+
+.more-text-online {
+  text-align: center;
+  position: relative;
+  top: 195px;
+}
+
+.image-reebok {
+  width: 936.24px;
+  height: 522px;
+  background-image: url(../assets/reebok_homepage.png);
+  margin: 0 auto;
+  position: relative;
+  top: 290px;
+
+}
+
+.more-text-reebok {
+  text-align: center;
+  position: relative;
+  top: 342px;
+
+}

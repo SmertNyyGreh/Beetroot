@@ -1,0 +1,100 @@
+body {
+    height: 200vh;
+    background-color: #F1E8B8;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: #EA766A;
+    position: fixed;
+    padding-top: 17px;
+    padding-left: 80px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.nav-li {
+    padding-right: 20px;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #C4D7F2;
+}
+
+.div-h1 {
+    position: relative;
+    top: 220px;
+    left: 430px;
+}
+
+.main-h1 {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.div-main {
+    /* background-color: black; */
+    position: relative;
+    top: 300px;
+    left: 180px;
+}
+
+.div-block {
+    display: inline-block;
+    height: 350px;
+    width: 200px;
+}
+
+.div-1 {
+    background-color: #636363;
+    margin-left: 50px;
+}
+.div-2 {
+    background-color: #636363;
+    margin-left: 50px;
+}
+.div-3 {
+    background-color: #636363;
+    margin-left: 50px;
+}
+
+.div-main {
+}
+
+.div-fixed {
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    
+    position: sticky;
+}
+
+.div-block {
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+.div-f1 {
+    top: 50px;
+    background-color: blue;
+}
+
+.div-f2 {
+    top: 150px;
+    background-color: green;
+}
+
+.div-f3 {
+    top: 200px;
+    background-color: red;
+}
+
+.div-fixed:hover {
+    transform: scale(2);
+}

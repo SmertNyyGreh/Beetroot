@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-div {
+    background-color: #3B3F45;
+    width: 793px;
+    height: 507px;
+    margin-left: 170px;
+  }
+  
+  .header-block {
+    background-color: #4a4f56;
+    width: 793px;
+    height: 82px;
+    background-position: center;
+    margin-top: 90px;
+    text-align: center;
+  }
+  
+  .header-block .color-pink-text {
+    color: #ff8984;
+  }
+  
+  main .label-size {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 18px;
+  /* padding-left: 50px; */
+}
+
+.header-text-big {
+  font-style: \'Trebuchet MS\', Trebuchet, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 19px;
+}
+
+.header-text-small {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 4px;
+}
+
+.main-block {
+  width: 534px;
+  height: 270px;
+  margin-left: 129px;
+  margin-top: 20px;
+}
+
+
+.label-size {
+  height: 45px;
+  width: 534px;
+  background-color: #88839E;
+  display: block;
+  padding: 11px 0px 13px 12px;
+}
+
+.label-size:nth-child(even) {
+  background-color: #7A7593;
+}
+
+.label-size:hover {
+  background-color: #625E77;
+  border-top: #FFFFFF 3px solid;
+  border-bottom: #FFFFFF 3px solid;
+}
+
+input[type="checkbox"]:checked+span+.text {
+   text-decoration: line-through;
+   opacity: 0.5;
+}
+
+.button {
+  width: 534px;
+  height: 45px;
+  margin-top: 45px;
+  background-color: #4A4F56;
+  border-style: none;
+  color: #ff8984;
+}
+
+.button:hover {
+  background-color: red;
+  border-top: #FFFFFF 3px solid;
+  border-bottom: #FFFFFF 3px solid;
+}
+
+.checkbox {
+  display: none;
+}
+
+.fake {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  margin-right: 16px;
+  position: relative;
+}
+
+.fake::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  opacity: 0;
+  transition: .2s;
+}
+
+.checkbox:checked + .fake::before {
+  opacity: 1;
+}
