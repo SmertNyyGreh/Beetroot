@@ -238,7 +238,7 @@ header {
   max-width: 950px;
   height: 2253px;
   margin: 0 auto;
-  /* background-color: greenyellow; */
+  background-color: greenyellow;
 }
 
 .more-text-portfolio {
@@ -276,5 +276,31 @@ header {
   text-align: center;
   position: relative;
   top: 342px;
+  /* background-color: aqua; */
+
+}
+
+.image-concept {
+  width: 936.24px;
+  height: 523px;
+  background-image: url(../assets/concept.png);
+  margin: 0 auto;
+  position: relative;
+  top: 443px;
+}
+
+.more-text-сoncept {
+  text-align: center;
+  position: relative;
+  top: 490px;
+  /* background-color: aqua; */
+}
+
+.footer {
+  max-width: 950px;
+  height: 622px;
+  margin: 0 auto;
+  background-color: darkcyan;
+  text-align: center;
 
 }
