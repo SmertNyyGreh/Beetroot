@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   height: 200vh;
 }
@@ -7,11 +6,13 @@ body {
   font-family: gilroy-bold;
   src: url(../assets/gilroy-bold.ttf);
 }
+
 @font-face {
   font-family: gilroy-medium;
   src: url(../assets/gilroy-Medium.ttf);
   font-size: 18px;
 }
+
 .all-h2 {
   font-size: 34px;
 }
@@ -44,6 +45,7 @@ header {
     gap: 70px;
   }
 }
+
 .header-link {
   text-decoration: none;
   color: #828282;
@@ -97,10 +99,10 @@ header {
   max-height: 387px;
   max-width: 943.61px;
   margin: 0 auto;
-}
-.div-photo-self-big .photo-self-big {
-  height: 100%;
-  width: 100%;
+  .photo-self-big {
+    height: 100%;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -108,15 +110,16 @@ header {
     display: none;
   }
 }
+
 .div-photo-self-small {
   height: 478px;
   width: 316px;
   margin: 0 auto;
   display: none;
-}
-.div-photo-self-small .photo-self-big {
-  height: 100%;
-  width: 100%;
+  .photo-self-big {
+    height: 100%;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -124,6 +127,7 @@ header {
     display: block;
   }
 }
+
 .block-about-me {
   height: 506px;
   /* background-color: chocolate; */
@@ -243,9 +247,10 @@ header {
 }
 
 /* .a {
-
+   
    background-color: darkgreen;
  } */
+
 .image-translate2 {
   transform: translateX(12px);
 }
@@ -263,10 +268,12 @@ header {
     transform: translateX(0px);
   }
 }
+
 .more-image {
   max-width: 950px;
   height: 2253px;
   margin: 0 auto;
+  //   background-color: greenyellow;
 }
 
 @media screen and (max-width: 820px) {
@@ -284,6 +291,7 @@ header {
     height: 1674px;
   }
 }
+
 .more-text-portfolio {
   text-align: center;
   position: relative;
@@ -392,5 +400,3 @@ header {
   width: 300px;
   height: 300px;
 }
-
-/*# sourceMappingURL=index.css.map */
