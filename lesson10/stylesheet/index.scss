@@ -46,6 +46,19 @@ header {
   }
 }
 
+@media screen and (max-width: 375px) {
+  header {
+    display: none;
+  }
+  .up-line {
+    display: none;
+  }
+  .div-photo-self-small {
+    position: relative;
+    top: 85px;
+  }
+}
+
 .header-link {
   text-decoration: none;
   color: #828282;
@@ -56,14 +69,20 @@ header {
   color: #070707;
 }
 
-#RU {
-  color: #828282;
-}
-
 .up-line {
   max-width: 950px;
   border: 1px solid #828282;
   margin: auto;
+}
+
+#RU {
+  color: #828282;
+}
+
+@media screen and (max-width: 375px) {
+  .div-block-lng {
+    display: none;
+  }
 }
 
 .main-block-info {
@@ -78,21 +97,59 @@ header {
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 375px) {
+  .main-block-info {
+    flex-direction: column;
+    align-items: unset;
+  }
+}
+
 .block-name {
   font-size: 48px;
   color: #070707;
   transform: translateY(-20px);
 }
 
+@media screen and (max-width: 375px) {
+  .block-name {
+    position: relative;
+    top: 80px;
+    left: 24px;
+  }
+}
+
 .block-years {
   font-size: 18px;
+  max-width: 155px;
+  height: 44px;
   /* background-color: darkmagenta; */
+}
+
+@media screen and (max-width: 375px) {
+  .block-years {
+    position: relative;
+    left: 28px;
+    top: 45px;
+  }
 }
 
 .block-lng {
   display: flex;
   transform: rotateZ(-90deg) translateY(40px) translateX(15px);
   height: 50px;
+}
+
+.div-burger-image {
+  display: none;
+}
+
+@media screen and (max-width: 375px) {
+  .div-burger-image {
+    display: block;
+    position: relative;
+    bottom: 102px;
+    left: 312px;
+  }
 }
 
 .div-photo-self-big {
@@ -116,10 +173,8 @@ header {
   width: 316px;
   margin: 0 auto;
   display: none;
-  .photo-self-big {
-    height: 100%;
-    width: 100%;
-  }
+  position: relative;
+  //   bottom: 200px;
 }
 
 @media screen and (max-width: 600px) {
@@ -144,6 +199,14 @@ header {
   /* background-color: darkgreen; */
   position: relative;
   top: 160px;
+}
+
+.div-h2-about-me {
+  position: relative;
+  bottom: 10px;
+  padding-bottom: 9px;
+  max-width: 156px;
+  margin: 0 auto;
 }
 
 .div-skills {
@@ -172,6 +235,20 @@ header {
   justify-content: space-around;
   position: relative;
   top: 290px;
+}
+
+@media screen and (max-width: 375px) {
+  .div-icon-programs {
+    display: none;
+  }
+}
+
+.div-icon-programs-mobile {
+  display: flex;
+//   flex-direction: column;
+  height: 960px;
+  width: 90px;
+  flex-wrap: wrap;
 }
 
 .image-adobe-photoshop {
@@ -357,27 +434,30 @@ header {
   /* background-color: aqua; */
 }
 
-.footer {
+.div-footer {
   max-width: 950px;
   height: 622px;
   margin: 0 auto;
-  background-color: darkcyan;
-  text-align: center;
-  display: flex;
 }
-
 .div-footer-h2 {
   position: relative;
   top: 115px;
   max-width: 145.6px;
   height: 43px;
+  margin: 0 auto;
+  font-family: gilroy-bold;
+  font-size: 34px;
 }
 
 .div-footer-invitations {
   position: relative;
-  top: 180px;
-  width: 275px;
+  top: 134px;
+  max-width: 275px;
   height: 44px;
+  margin: 0 auto;
+  font-family: gilroy-medium;
+  font-size: 18px;
+  text-align: center;
 }
 
 .div-button-footer {
@@ -387,6 +467,9 @@ header {
   display: flex;
   justify-content: center;
   border-radius: 25px;
+  position: relative;
+  top: 163px;
+  margin: 0 auto;
 }
 
 .button-footer {
@@ -394,9 +477,34 @@ header {
   border: none;
   color: #ffffff;
   background-color: #070707;
+  font-family: gilroy-bold;
+  border-radius: 25px;
+  width: 100%;
 }
 
-.ss {
-  width: 300px;
-  height: 300px;
+.links-icon {
+  max-width: 346px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  position: relative;
+  top: 250px;
+}
+
+.div-link-info {
+  max-width: 243px;
+  margin: 0 auto;
+  font-size: 14px;
+  text-align: center;
+  font-family: gilroy-medium;
+  color: #828282;
+  position: relative;
+  top: 290px;
+}
+
+footer {
+  //   background-color: darkslategray;
+  max-width: 950px;
+  height: 622px;
+  margin: 0 auto;
 }

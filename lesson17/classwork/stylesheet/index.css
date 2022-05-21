@@ -1,0 +1,29 @@
+.main-div {
+  width: 650px;
+  height: 650px;
+  margin: 0 auto;
+  background-color: cadetblue;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.yellowgreen {
+  background-color: yellowgreen;
+}
+/*# sourceMappingURL=index.css.map */

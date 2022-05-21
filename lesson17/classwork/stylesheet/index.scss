@@ -1,0 +1,31 @@
+.main-div {
+   width: 650px;
+   height: 650px;
+   margin: 0 auto;
+   background-color: cadetblue;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+}
+
+.block {
+   // width: 300px;
+   // height: 300px;
+   
+}
+
+.blue {
+   background-color: blue;
+}
+
+.red {
+   background-color: red;
+}
+
+.yellow {
+   background-color: yellow;
+}
+
+.yellowgreen {
+   background-color: yellowgreen;
+}
