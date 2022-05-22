@@ -1,0 +1,29 @@
+#input-checkbox {
+  display: none;
+}
+
+.label {
+  font-size: 50px;
+}
+
+.input-chekbox:checked + .ul {
+  display: inline;
+}
+
+.ul {
+  display: none;
+}
+
+.all-li {
+  padding: 20px;
+  text-align: center;
+}
+
+.just-block {
+  width: 600px;
+  height: 600px;
+  background-color: cadetblue;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=index.css.map */

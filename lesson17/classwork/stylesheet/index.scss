@@ -1,31 +1,76 @@
 .main-div {
-   width: 650px;
-   height: 650px;
+   width: 610px;
+   height: 610px;
+   background-color: dodgerblue;
    margin: 0 auto;
-   background-color: cadetblue;
+   margin-top: 30px;
    display: grid;
-   grid-template-columns: 1fr 1fr;
-   grid-template-rows: 1fr 1fr;
+   grid-template-columns: repeat(3, 200px);
+   grid-template-rows: repeat(3, 200px);
+   justify-content: center;
 }
 
 .block {
-   // width: 300px;
-   // height: 300px;
-   
+   padding: 10px;
+   border: solid 1px yellow;
 }
 
-.blue {
-   background-color: blue;
+.a-1 {
+   background-color: darkgoldenrod;
 }
 
-.red {
-   background-color: red;
+.a-2 {
+   background-color: darkblue;
 }
 
-.yellow {
-   background-color: yellow;
+.a-2:hover {
+   grid-row: 1/2;
 }
 
-.yellowgreen {
-   background-color: yellowgreen;
+.a-3 {
+   background-color: darkcyan;
+}
+
+.a-3:hover {
+   grid-row: 1/2;
+}
+
+.a-4 {
+   background-color: deeppink;
+}
+
+.a-4:hover {
+   grid-row: 1/2;
+}
+
+.a-5 {
+   background-color: cornsilk;
+}
+
+.a-5:hover {
+   grid-row: 1/2;
+}
+
+.a-6 {
+   background-color: crimson;
+}
+
+.a-6:hover {
+   grid-row: 1/2;
+}
+
+.a-7 {
+   background-color: black;
+}
+
+.a-7:hover {
+   grid-row: 1/2;
+}
+
+.a-8 {
+   background-color: firebrick;
+}
+
+.a-8:hover {
+   grid-row: 1/2;
 }
