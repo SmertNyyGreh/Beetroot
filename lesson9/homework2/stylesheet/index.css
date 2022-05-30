@@ -172,6 +172,19 @@ header {
 
 .soundcloud:hover {
   transform: rotateX(180deg);
-  transition: ease-in-out 2s;
+  transition: ease-in-out 1s;
   background-image: url(../assets/Soundcloud-black.png);
+}
+
+.w {
+  width: 440px;
+  height: 280px;
+  /* background-color: aqua; */
+  background-image: url(../assets/wwwww.png);
+}
+
+.w:hover {
+  transform: rotateX(360deg);
+  transition: ease-in-out 2s;
+  background-image: url(../assets/wwwwwwwwwwwww.png);
 }
