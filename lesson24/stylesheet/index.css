@@ -53,6 +53,16 @@
   font-weight: 800;
 }
 
+.header-div-left .div-links .main-header-link {
+  text-decoration: none;
+  color: #4B5D68;
+}
+
+.header-div-left .div-links .main-header-link .main-header-link:active {
+  text-decoration: none;
+  color: #4B5D68;
+}
+
 .button-demo {
   width: 210px;
   height: 60px;
@@ -72,6 +82,7 @@
   font-family: Avenir;
   color: #212353;
   font-weight: 800;
+  background-color: #ffffff;
 }
 
 .section-1 {
@@ -90,7 +101,7 @@
   font-weight: 700;
   max-width: 645px;
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 130px;
+  margin-top: 130px;
   color: #212353;
   line-height: 110%;
 }
@@ -636,6 +647,13 @@ footer .div-footer-top .footer-top-left-p {
   font-family: Avenir;
   color: #212353;
   line-height: 250%;
+  display: block;
+  text-decoration: none;
+}
+
+.text-link-setting-l:hover {
+  text-decoration: none;
+  color: #212353;
 }
 
 .p-link-l-mame {
@@ -650,6 +668,13 @@ footer .div-footer-top .footer-top-left-p {
   font-family: Avenir;
   color: #212353;
   line-height: 250%;
+  display: block;
+  text-decoration: none;
+}
+
+.text-link-setting-r:hover {
+  text-decoration: none;
+  color: #212353;
 }
 
 .p-link-r-name {
