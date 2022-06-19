@@ -71,4 +71,12 @@
 //    result+=num;
 // }console.log(result)
 
+let i = ('Введіть');
+// let i = +prompt('Введіть число');
+let length = i.length
+console.log(length);
+console.log(typeof length);
 
+// while (i) {
+
+// }
