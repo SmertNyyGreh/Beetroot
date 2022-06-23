@@ -71,12 +71,15 @@
 //    result+=num;
 // }console.log(result)
 
-let i = ('Введіть');
-// let i = +prompt('Введіть число');
-let length = i.length
-console.log(length);
-console.log(typeof length);
+// Це я також знайшов і зрозумів нарешті
+// let a = 'Arbuz'
+// for(let i = 0; i < a.length; i++) {
+   //    console.log(a.charAt(i))
+   // }
 
-// while (i) {
+   // var n = '123';
+   // var rez = n[n.length -1];
+   // for(var i = n.length - 2; i >= 0; i--)
+   //     rez += n[i];
+   // console.log(rez);
 
-// }
