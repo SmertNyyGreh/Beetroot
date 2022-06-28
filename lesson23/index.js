@@ -72,10 +72,10 @@
 // }console.log(result)
 
 // Це я також знайшов і зрозумів нарешті
-// let a = 'Arbuz'
-// for(let i = 0; i < a.length; i++) {
-   //    console.log(a.charAt(i))
-   // }
+let a = 'Arbuz'
+for(let i = 0; i < a.length; i++) {
+      console.log(a.charAt(i))
+   }
 
    // var n = '123';
    // var rez = n[n.length -1];

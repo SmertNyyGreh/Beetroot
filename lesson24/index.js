@@ -29,7 +29,6 @@
 // difference(a, b);
 // console.log(difference(a, b));
 
-
 // 1)3. arrow function
 // const a = prompt("Введіть перше число");
 // const b = prompt("Введіть друге число");
@@ -91,3 +90,43 @@
 // let resultnumber = addingNumbersToAString(number1, number2, number3);
 // console.log(resultnumber);
 // console.log(typeof resultnumber);
+
+// let wigth = +prompt('Введіть ширину:');
+// let length = +prompt('Введіть довжину:');
+
+// Напиши функцію, яка приймає довжину і ширину прямокутника і обчислює його площу. Якщо в функцію передали 1 параметр, то вона обчислює площу квадрата.
+// function calculateTheRectangle(wigth, length){
+//    if(wigth != 0 && length != 0){
+//    const sum = wigth * length;
+//    console.log(`Площа вашого прямокутника становить: ${sum}`);
+//    } else if(wigth == 0 || length == 0){
+//       if(wigth != 0){
+//          let res = wigth * wigth;
+//          console.log(`Площа вашого прямокутника становить: ${res}`);
+//       } else if(length != 0) {
+//          let res = length * length;
+//          console.log(`Площа вашого прямокутника становить: ${res}`);
+//       }
+//    }
+// }
+// calculateTheRectangle(wigth, length);
+
+// let userNumber = prompt("Ведіть число");
+
+// let partition;
+// let k = 0;
+
+// for (let i = 0; i < userNumber; i++) {
+//   function checker(i, userNumber) {
+//     partition = userNumber % i;
+//     return partition;
+//   }
+//   checker(i, userNumber);
+
+//   if (partition == 0) {
+//     k += i;
+//   }
+// }
+// if (k == userNumber) {
+//   console.log("ТИ ЗМІГ АХАХАХАХАХ");
+// }
