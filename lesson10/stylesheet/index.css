@@ -7,13 +7,11 @@ body {
   font-family: gilroy-bold;
   src: url(../assets/gilroy-bold.ttf);
 }
-
 @font-face {
   font-family: gilroy-medium;
   src: url(../assets/gilroy-Medium.ttf);
   font-size: 18px;
 }
-
 .all-h2 {
   font-size: 34px;
 }
@@ -34,15 +32,9 @@ header {
   max-width: 950px;
   height: 85px;
   /* background-color: aqua; */
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   margin: auto;
   gap: 100px;
 }
@@ -52,7 +44,6 @@ header {
     gap: 70px;
   }
 }
-
 @media screen and (max-width: 375px) {
   header {
     display: none;
@@ -65,7 +56,6 @@ header {
     top: 85px;
   }
 }
-
 .header-link {
   text-decoration: none;
   color: #828282;
@@ -91,44 +81,28 @@ header {
     display: none;
   }
 }
-
 .main-block-info {
   max-width: 950px;
   height: 190px;
   /* background-color: crimson; */
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   margin: 0 auto;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 375px) {
   .main-block-info {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: unset;
-        -ms-flex-align: unset;
-            align-items: unset;
+    flex-direction: column;
+    align-items: unset;
   }
 }
-
 .block-name {
   font-size: 48px;
   color: #070707;
-  -webkit-transform: translateY(-20px);
-          transform: translateY(-20px);
+  transform: translateY(-20px);
 }
 
 @media screen and (max-width: 375px) {
@@ -138,7 +112,6 @@ header {
     left: 24px;
   }
 }
-
 .block-years {
   font-size: 18px;
   max-width: 155px;
@@ -153,13 +126,9 @@ header {
     top: 45px;
   }
 }
-
 .block-lng {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-transform: rotateZ(-90deg) translateY(40px) translateX(15px);
-          transform: rotateZ(-90deg) translateY(40px) translateX(15px);
+  transform: rotateZ(-90deg) translateY(40px) translateX(15px);
   height: 50px;
 }
 
@@ -175,13 +144,11 @@ header {
     left: 312px;
   }
 }
-
 .div-photo-self-big {
   max-height: 387px;
   max-width: 943.61px;
   margin: 0 auto;
 }
-
 .div-photo-self-big .photo-self-big {
   height: 100%;
   width: 100%;
@@ -192,7 +159,6 @@ header {
     display: none;
   }
 }
-
 .div-photo-self-small {
   height: 478px;
   width: 316px;
@@ -206,7 +172,6 @@ header {
     display: block;
   }
 }
-
 .block-about-me {
   height: 506px;
   /* background-color: chocolate; */
@@ -218,9 +183,7 @@ header {
 .div-about-me {
   margin: auto;
   /* justify-content: center; */
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   text-align: center;
   /* background-color: darkgreen; */
   position: relative;
@@ -257,11 +220,8 @@ header {
 }
 
 .div-icon-programs {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   position: relative;
   top: 290px;
 }
@@ -271,15 +231,11 @@ header {
     display: none;
   }
 }
-
 .div-icon-programs-mobile {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 960px;
   width: 90px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .image-adobe-photoshop {
@@ -308,13 +264,9 @@ header {
 }
 
 .name-programs {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-transform: translateY(310px);
-          transform: translateY(310px);
+  justify-content: space-around;
+  transform: translateY(310px);
   /* background-color: aqua; */
 }
 
@@ -328,13 +280,9 @@ header {
 }
 
 .div-image-star {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-transform: translateY(350px);
-          transform: translateY(350px);
+  justify-content: space-around;
+  transform: translateY(350px);
   /* background-color: aqua; */
 }
 
@@ -363,31 +311,26 @@ header {
 }
 
 /* .a {
-   
+
    background-color: darkgreen;
  } */
 .image-translate2 {
-  -webkit-transform: translateX(12px);
-          transform: translateX(12px);
+  transform: translateX(12px);
 }
 
 .image-translate3 {
-  -webkit-transform: translateX(19px);
-          transform: translateX(19px);
+  transform: translateX(19px);
 }
 
 .image-translate4 {
-  -webkit-transform: translateX(11px);
-          transform: translateX(11px);
+  transform: translateX(11px);
 }
 
 @media screen and (max-width: 600px) {
   .image-translate2 {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    transform: translateX(0px);
   }
 }
-
 .more-image {
   max-width: 950px;
   height: 2253px;
@@ -399,19 +342,16 @@ header {
     height: 2010px;
   }
 }
-
 @media screen and (max-width: 768px) {
   .more-image {
     height: 1953px;
   }
 }
-
 @media screen and (max-width: 600px) {
   .more-image {
     height: 1674px;
   }
 }
-
 .more-text-portfolio {
   text-align: center;
   position: relative;
@@ -508,12 +448,8 @@ header {
   max-width: 165px;
   height: 42px;
   background-color: #070707;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   border-radius: 25px;
   position: relative;
   top: 163px;
@@ -532,12 +468,8 @@ header {
 
 .links-icon {
   max-width: 346px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin: auto;
   position: relative;
   top: 250px;
@@ -558,5 +490,4 @@ footer {
   max-width: 950px;
   height: 622px;
   margin: 0 auto;
-}
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

@@ -1,19 +1,19 @@
-const objectCar = {
-  maker: "Valkswagen",
-  model: "Passat B7",
-  graduationYear: "2012-2015",
-  fuelTankObject: 40,
-  availableAmountOfFuel: 37,
-  fuelConsumptionPer100Km: 8,
-  inforCar() {
-    console.log(`Виробник даного автомобіля:  `, this.maker);
-    console.log(`Модель машини:`, this.model);
-    console.log(`Рік випуску:  `, this.graduationYear);
-    console.log(`Обсяг паливного баку складає:  `, this.fuelTankObject + ` літрів.`);
-    console.log(`Зараз в баці є :  `, this.availableAmountOfFuel + ` літрів.`);
-    console.log(`Розхід топлива:`, this.fuelConsumptionPer100Km + ` літрів на 100 км.`);
-  },
-};
+// const objectCar = {
+//   maker: "Valkswagen",
+//   model: "Passat B7",
+//   graduationYear: "2012-2015",
+//   fuelTankObject: 40,
+//   availableAmountOfFuel: 37,
+//   fuelConsumptionPer100Km: 8,
+//   inforCar() {
+//     console.log(`Виробник даного автомобіля:  `, this.maker);
+//     console.log(`Модель машини:`, this.model);
+//     console.log(`Рік випуску:  `, this.graduationYear);
+//     console.log(`Обсяг паливного баку складає:  `, this.fuelTankObject + ` літрів.`);
+//     console.log(`Зараз в баці є :  `, this.availableAmountOfFuel + ` літрів.`);
+//     console.log(`Розхід топлива:`, this.fuelConsumptionPer100Km + ` літрів на 100 км.`);
+//   },
+// };
 // Функція щоб переглянути загальні хакактеристики автомобіля
 // objectCar.inforCar();
 
@@ -57,7 +57,7 @@ const objectCar = {
 //  return kilometers;
 // }
 
-
+// Заправка автомобіля
 // function carRefueling(){
    
 //       for(; objectCar.availableAmountOfFuel < objectCar.fuelTankObject;){
@@ -65,4 +65,3 @@ const objectCar = {
 //          console.log(`Відбувається заправка `+objectCar.availableAmountOfFuel);
 //       }
 // }
-

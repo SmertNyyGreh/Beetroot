@@ -4,15 +4,10 @@
   background-color: dodgerblue;
   margin: 0 auto;
   margin-top: 30px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (200px)[3];
-      grid-template-columns: repeat(3, 200px);
-  -ms-grid-rows: (200px)[3];
-      grid-template-rows: repeat(3, 200px);
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(3, 200px);
+  justify-content: center;
 }
 
 .block {
@@ -29,8 +24,6 @@
 }
 
 .a-2:hover {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
   grid-row: 1/2;
 }
 
@@ -39,8 +32,6 @@
 }
 
 .a-3:hover {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
   grid-row: 1/2;
 }
 
@@ -49,8 +40,6 @@
 }
 
 .a-4:hover {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
   grid-row: 1/2;
 }
 
@@ -59,8 +48,6 @@
 }
 
 .a-5:hover {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
   grid-row: 1/2;
 }
 
@@ -69,8 +56,6 @@
 }
 
 .a-6:hover {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
   grid-row: 1/2;
 }
 
@@ -79,8 +64,6 @@
 }
 
 .a-7:hover {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
   grid-row: 1/2;
 }
 
@@ -89,8 +72,5 @@
 }
 
 .a-8:hover {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
   grid-row: 1/2;
-}
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
