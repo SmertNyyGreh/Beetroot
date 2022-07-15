@@ -62,12 +62,6 @@ for (let i = 0; i < playList.length; i++) {
   liUl.innerHTML = newPlayList[i];
 }
 
-const classDiv1 = document.getElementsByClassName("svitlofor-1");
-const arrDiv1 = Array.from(classDiv1);
-const realArrDiv = arrDiv1.find((item) => {
-  return item;
-});
-
 const btn = document.getElementById("btn");
 const idDiv1 = document.getElementById("idDiv1");
 const idDiv2 = document.getElementById("idDiv2");
