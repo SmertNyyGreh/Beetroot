@@ -1,0 +1,68 @@
+.password-label {
+  position: relative;
+}
+
+.password-button {
+  position: absolute;
+  top: 23px;
+  right: 5px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.hide-button {
+  display: none;
+}
+
+.login-form {
+  background-color: darkslategray;
+  height: 120px;
+  width: 225px;
+  border: solid 3px;
+  border-color: dimgray;
+}
+
+.main-div {
+  padding: 10px 0 0 10px;
+}
+
+.span-name {
+  font-weight: 700;
+  color: chocolate;
+  font-family: "Roboto", sans-serif;
+}
+
+.button-login {
+  margin: 5px 0 0 18px;
+}
+
+.button-reset {
+  margin: 5px 0 0 65px;
+}
+
+.div-confirm-login {
+  width: 300px;
+  height: 100px;
+  background-color: #FFB4B4;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  margin-left: -150px;
+  padding-top: 20px;
+  text-align: center;
+  border: solid 2px #B2A4FF;
+  border-radius: 15px 0 15px 0;
+  display: none;
+}
+
+.span-confirm-login {
+  font-weight: bolder;
+  font-family: "Roboto", sans-serif;
+}
+
+.button-closed-modal {
+  margin: 40px 0 0 170px;
+  background-color: #FFDEB4;
+  border: 1px solid black;
+  border-radius: 5px;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <link rel="stylesheet" href="stylesheet/index.css" />
+      <link rel="stylesheet" href="stylesheet/reset.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,500&display=swap"
+         rel="stylesheet"
+      />
+   </head>
+   <body class="body">
+      <form id="login-form" class="login-form">
+         <div class="main-div">
+            <div>
+               <label>
+                  <span class="span-name">Username:</span>
+                  <br />
+                  <input type="text" name="username" />
+               </label>
+            </div>
+            <div>
+               <label class="password-label">
+                  <span class="span-name">Password:</span>
+                  <br />
+                  <input type="password" name="password" id="password-input" />
+                  <span id="password-show-button" class="password-button"
+                     >Show</span
+                  >
+                  <span
+                     id="password-hide-button"
+                     class="password-button hide-button"
+                     >Hide</span
+                  >
+               </label>
+            </div>
+         </div>
+         <button type="submit" class="button-login">Log in</button>
+         <button type="reset" class="button-reset">Reset</button>
+      </form>
+      <div class="div-confirm-login">
+         <span class="span-confirm-login"
+            >Вітаю ви успішно увійшли!</span
+         >
+         <br>
+         <button class="button-closed-modal">Закрити</button>
+      </div>
+      <script type="module" src="scipts/index.js"></script>
+      <script src="scipts/data.js"></script>
+   </body>
+</html>

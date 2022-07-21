@@ -1,44 +1,83 @@
-const idDiv = document.getElementById('div');
+var playList = [
+  {
+    author: "LED ZEPPELIN",
 
-const key = {
-   cntrl: false,
-   e: false,
-   s: false,
-};
+    song: "STAIRWAY TO HEAVEN",
+  },
 
-document.addEventListener('keydown', (event) => {
-   if (event.key === 'Control') {
-      key.cntrl = true;
-   } else if (event.key === 'e' || event.key === 'у') {
-      key.e = true;
-   } else if (event.key === 's' || event.key === 'ы' || event.key === 'і') {
-      key.s = true;
-   }
-   if (key.cntrl && key.e) {
-      event.preventDefault();
-      idDiv.style.display = 'none';
-      const body = document.body;
-      const elementTextarea = document.createElement('textarea');
-      body.appendChild(elementTextarea);
-      elementTextarea.innerHTML = idDiv.textContent;
-   } else if (key.cntrl && key.s) {
-      event.preventDefault();
-      const elementTextarea = document.body.children[3];
-      elementTextarea.style.display = 'none';
-      idDiv.style.display = 'block';
-      elementTextarea.addEventListener('change', (event) => {
-         idDiv.innerHTML = event.target.value;
-      })
-   }
+  {
+    author: "QUEEN",
+
+    song: "BOHEMIAN RHAPSODY",
+  },
+
+  {
+    author: "LYNYRD SKYNYRD",
+
+    song: "FREE BIRD",
+  },
+
+  {
+    author: "DEEP PURPLE",
+
+    song: "SMOKE ON THE WATER",
+  },
+
+  {
+    author: "JIMI HENDRIX",
+
+    song: "ALL ALONG THE WATCHTOWER",
+  },
+
+  {
+    author: "AC/DC",
+
+    song: "BACK IN BLACK",
+  },
+
+  {
+    author: "QUEEN",
+
+    song: "WE WILL ROCK YOU",
+  },
+
+  {
+    author: "METALLICA",
+
+    song: "ENTER SANDMAN",
+  },
+];
+
+const firstDiv = document.getElementById("my-div");
+const olFirstDiv = document.createElement("ol");
+firstDiv.appendChild(olFirstDiv);
+
+const newPlayList = playList.map((item) => {
+  return `author: ` + item.author + " song: " + item.song;
 });
 
-document.addEventListener('keyup', (event) => {
-   event.preventDefault();
-   if (event.key === 'Control') {
-      key.cntrl = false;
-   } else if (event.key === 'e' || event.key === 'у') {
-      key.e = false;
-   } else if (event.key === 's' || event.key === 'ы' || event.key === 'і') {
-      key.s = false;
-   }
+for (let i = 0; i < playList.length; i++) {
+  const liUl = document.createElement("li");
+  olFirstDiv.appendChild(liUl);
+  liUl.innerHTML = newPlayList[i];
+}
+
+const btn = document.getElementById("btn");
+const idDiv1 = document.getElementById("idDiv1");
+const idDiv2 = document.getElementById("idDiv2");
+const idDiv3 = document.getElementById("idDiv3");
+let clicks = 0;
+btn.addEventListener("click", () => {
+  clicks = clicks + 1;
+  if (clicks === 1) {
+   idDiv3.style.backgroundColor = 'gray';
+   idDiv1.style.backgroundColor = 'red';
+  } else if (clicks === 2) {
+   idDiv1.style.backgroundColor = 'gray';
+   idDiv2.style.backgroundColor = 'yellow';
+  } else if (clicks === 3) {
+   idDiv2.style.backgroundColor = 'gray';
+   idDiv3.style.backgroundColor = 'green';
+       clicks = 0;
+  }
 });
